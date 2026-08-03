@@ -26,3 +26,59 @@ INSERT OR IGNORE INTO contacts (contact_id, first_name, last_name, email, phone)
 VALUES( '1', 'anonyme', 'noname', 'anonymous@email.fr', '+2653546434');
 INSERT OR IGNORE INTO contacts (contact_id, first_name, last_name, email, phone)
 VALUES( '2', 'anne onim', 'onim', 'anne.onim@email.com', '+86877779898');
+create table if not exists country(
+        id integer primary key autoincrement,
+        name text
+                    );
+create table if not exists job_or_status(
+        id integer primary key autoincrement,
+        name text
+                    );
+create table if not exists city(
+        id integer primary key autoincrement,
+        name text
+                    );
+create table if not exists language(
+        id integer primary key autoincrement,
+        name text,
+            short_name text
+                    );
+create table if not exists user(
+        id integer primary key autoincrement,
+        phone text,
+            country_id text,
+            username text,
+            email text,
+            password text,
+            job_or_status_id text
+                    );
+create table if not exists voyage(
+        id integer primary key autoincrement,
+        user_id text,
+            city_id text,
+            country_id text
+                    );
+create table if not exists post(
+        id integer primary key autoincrement,
+        user_id text,
+            language_id text,
+            content text
+                    );
+create table if not exists product(
+        id integer primary key autoincrement,
+        user_id text,
+            nom text,
+            description text,
+            prix text,
+            product_type text,
+            image text,
+            categories text
+                    );
+create table if not exists creation_or_activity(
+        id integer primary key autoincrement,
+        type text,
+            name text,
+            description text,
+            pic text,
+            user_id text
+                    );

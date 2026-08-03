@@ -232,3 +232,5 @@ peut te reconnecter.
 Tu veux que je t’aide à créer un petit script Python qui propose des
 activités selon ton humeur ou ton perception_mode ? Par exemple :
 python
+
+
