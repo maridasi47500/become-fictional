@@ -6,6 +6,7 @@ comment tu changes* :
 - ajouter une activité
 - unusual actions:
 - ajouter un statut que tu voudrais devenir (grand voyageur(se)),, l'application va decider en fonction de tes experience, experience, session d'entrainement que tu as ajoute, à quelle date tu peux devenir grand voyageur(se) grand musicien(ne) etc.)
+- action possible une fois que tu pouvais devenir un fois voyageur : ajouter plus de photos de voyage, etc.
 - unusual fonctionnalite dans le code : utilise become dans rails
 - 
 🚀 Présentation
