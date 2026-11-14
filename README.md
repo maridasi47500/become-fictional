@@ -1,5 +1,13 @@
 *🚀 Become — Une application Rails pour explorer qui tu es, où tu vas, et
 comment tu changes* :
+- common actions
+- ajouter un voyage,
+- ajouter un emploi
+- ajouter une activité
+- unusual actions:
+- ajouter un statut que tu voudrais devenir (grand voyageur(se)),, l'application va decider en fonction de tes experience, experience, session d'entrainement que tu as ajoute, à quelle date tu peux devenir grand voyageur(se) grand musicien(ne) etc.)
+- unusual fonctionnalite dans le code : utilise become dans rails
+- 
 🚀 Présentation
 
 *Become* est une application Rails hybride, à la fois personnelle et
